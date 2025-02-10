@@ -29,9 +29,22 @@
 		3CC38CED2D52721F007EBAE9 /* BracketsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BracketsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3CC38D032D527345007EBAE9 /* Exceptions for "Brackets" folder in "BracketsTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Directory.swift,
+			);
+			target = 3CC38CE22D52721F007EBAE9 /* BracketsTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3CC38CD42D52721D007EBAE9 /* Brackets */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3CC38D032D527345007EBAE9 /* Exceptions for "Brackets" folder in "BracketsTests" target */,
+			);
 			path = Brackets;
 			sourceTree = "<group>";
 		};
